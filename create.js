@@ -12,6 +12,7 @@ export async function main(event, context, callback) {
             content: data.content,
             attachment: data.attachment,
             createdAt: Date.now()
+
         }
     };
 
